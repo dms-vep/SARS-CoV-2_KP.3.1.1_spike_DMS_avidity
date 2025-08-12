@@ -55,5 +55,5 @@ Additional command line arguments to the script are specified in [config.yaml](c
 
 The final designed oligos are in [results/mutagenesis_oligos.fa](results/mutagenesis_oligos.fa).
 
-[data/primers.fa](data/primers.fa) contains a list of primers used to amplify tiles and flanking spike sequences from ssDNA pool and [data/4838_pH2rU3_ForInd_KP.3.1.1_sinobiological_CMV_ZsGT2APurR.gb](data/4838_pH2rU3_ForInd_KP.3.1.1_sinobiological_CMV_ZsGT2APurR.gb) backbone.
+[data/primers.csv](data/primers.csv) contains a list of primers used to amplify tiles and flanking spike sequences from ssDNA pool and [data/4838_pH2rU3_ForInd_KP.3.1.1_sinobiological_CMV_ZsGT2APurR.gb](data/4838_pH2rU3_ForInd_KP.3.1.1_sinobiological_CMV_ZsGT2APurR.gb) backbone.
 
