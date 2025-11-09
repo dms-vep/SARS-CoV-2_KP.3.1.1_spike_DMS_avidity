@@ -1,6 +1,6 @@
 # Deep mutational scanning of SARS-CoV-2 KP.3.1.1 spike 
 
-This study is described in [Dadonaite et al (2025)](https://www.biorxiv.org/content/10.1101/2025.08.18.671001v1).
+This study is published in JVI. See [Dadonaite et al (2025)](https://journals.asm.org/doi/10.1128/jvi.01423-25).
 
 For documentation of the analysis, see [https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS/](https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS/)
 
@@ -38,7 +38,7 @@ To run on the Hutch cluster via [slurm](https://slurm.schedmd.com/), you can run
 The results of running the pipeline are placed in [./results/](results).
 Only some of these results are tracked to save space (see [.gitignore](.gitignore)).
 
-The pipeline builds HTML documentation for the pipeline in [./docs/](docs), which is rendered via GitHub Pages at [https://dms-vep.github.io/SARS-CoV-2_XBB.1.5_spike_DMS/](https://dms-vep.github.io/SARS-CoV-2_XBB.1.5_spike_DMS/).
+The pipeline builds HTML documentation for the pipeline in [./docs/](docs), which is rendered via GitHub Pages at [https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS](https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS).
 
 ### Library design
 The design of the mutant library is contained in [./library_design/](library_design).
