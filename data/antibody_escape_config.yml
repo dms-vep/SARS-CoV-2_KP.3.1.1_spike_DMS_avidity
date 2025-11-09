@@ -874,6 +874,70 @@ antibody_selections:
       concentration: 900
       use_in_fit: true
 
+
+
+# --------------------------------------------------------------------------------------
+  Lib2-250531-BD55-1205-Fab:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: Lib2-251104-no-mAb
+    antibody_samples: # concentrations in ng/mL
+     Lib2-251104-BD55-1205_Fab_IC99x0.01:
+      concentration: .40815
+      use_in_fit: true
+     Lib2-251104-BD55-1205_Fab_IC99x0.04:
+      concentration: 1.63260
+      use_in_fit: true
+     Lib2-251104-BD55-1205_Fab_IC99x0.16:
+      concentration: 6.53038
+      use_in_fit: false
+     Lib2-251104-BD55-1205_Fab_IC99x0.64:
+      concentration: 26.1215
+      use_in_fit: false
+     Lib2-251104-BD55-1205_Fab_IC99x2.56:
+      concentration: 104.486
+      use_in_fit: true
+
+  Lib2-250531-BD55-1205-Fab2:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: Lib2-251104-no-mAb
+    antibody_samples: # concentrations in mg/mL
+     Lib2-251104-BD55-1205_Fab2_IC99x1.08:
+      concentration: 1.19702
+      use_in_fit: true
+     Lib2-251104-BD55-1205_Fab2_IC99x3.24:
+      concentration: 3.59106
+      use_in_fit: true
+     Lib2-251104-BD55-1205_Fab2_IC99x9.72:
+      concentration: 10.77322
+      use_in_fit: false
+
+  Lib2-250531-BD55-1205-IgG:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: Lib2-251104-no-mAb
+    antibody_samples: # concentrations in mg/mL
+     Lib2-251104-BD55-1205_IgG_IC99x1.08:
+      concentration: .72969 
+      use_in_fit: true
+     Lib2-251104-BD55-1205_IgG_IC99x3.24:
+      concentration: 2.18906
+      use_in_fit: true
+     Lib2-251104-BD55-1205_IgG_IC99x9.72:
+      concentration: 6.56717
+      use_in_fit: false
+
+
 # --------------------------------------------------------------------------------------
 # Note that for soluble receptor affinity selections, you define selection experiments
 # exactly analogously to `antibody_selections` in `receptor_selections`, using `antibody`
@@ -1136,6 +1200,32 @@ avg_antibody_escape:
     selections:
       - Lib1-250531-VYD222_mAb
       - Lib2-250531-VYD222_mAb
+  
+  mAb_BD55-1205_IgG_all:
+    <<: *avg_antibody_escape_default
+    title: Antibody BD55-1205 IgG escape, LK and BD replicates
+    selections:
+      - Lib1-250531-BD55_mAb
+      - Lib2-250531-BD55_mAb
+      - Lib2-250531-BD55-1205-IgG
+
+  mAb_BD55-1205_IgG:
+    <<: *avg_antibody_escape_default
+    title: Antibody BD55-1205 IgG escape, LK replicate only
+    selections:
+      - Lib2-250531-BD55-1205-IgG
+
+  mAb_BD55-1205_Fab2:
+    <<: *avg_antibody_escape_default
+    title: Antibody BD55-1205 Fab2 escape, LK replicate only
+    selections:
+      - Lib2-250531-BD55-1205-Fab2
+
+  mAb_BD55-1205_Fab:
+    <<: *avg_antibody_escape_default
+    title: Antibody BD55-1205 Fab escape, LK replicate only
+    selections:
+      - Lib2-250531-BD55-1205-Fab
 
 # Define the receptor affinity experiments to average
 avg_ACE2_binding_default: &avg_ACE2_binding_default
