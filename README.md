@@ -1,8 +1,8 @@
-# Deep mutational scanning of SARS-CoV-2 KP.3.1.1 spike 
+# Deep mutational scanning of SARS-CoV-2 KP.3.1.1 spike with mono- and bivalent anbitodies
 
-This study is published in JVI. See [Dadonaite et al (2025)](https://journals.asm.org/doi/10.1128/jvi.01423-25).
+Modification of a study already published in JVI. See [Dadonaite et al (2025)](https://journals.asm.org/doi/10.1128/jvi.01423-25).
 
-For documentation of the analysis, see [https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS/](https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS/)
+For documentation of the analysis, see [https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS_avidity/](https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS/_avidity)
 
 ## Organization of this repo
 
