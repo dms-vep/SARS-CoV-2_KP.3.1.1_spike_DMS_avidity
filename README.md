@@ -2,7 +2,7 @@
 
 Modification of a study already published in JVI. See [Dadonaite et al (2025)](https://journals.asm.org/doi/10.1128/jvi.01423-25).
 
-For documentation of the analysis, see [https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS_avidity/](https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS/_avidity)
+For documentation of the analysis, see [https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS_avidity/](https://dms-vep.org/SARS-CoV-2_KP.3.1.1_spike_DMS_avidity/)
 
 ## Organization of this repo
 
